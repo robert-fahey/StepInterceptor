@@ -35,7 +35,7 @@ namespace StepInteceptor.UnitTests.Steps
         [When(@"The shop object is built by the inceptor")]
         public void WhenTheShopObjectIsBuiltByTheInceptor()
         {
-            Console.Out.WriteLine("Go here!");
+            Console.Out.WriteLine("Builder invoked automatically");
         }
         
         [Then(@"My shop object is populated with the name '(.*)'")]
