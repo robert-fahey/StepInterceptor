@@ -8,18 +8,20 @@ Build repo
 Add StepInterceptor reference to your specs project
 Add library refernce to your app.config
 
+'''xml
   <specFlow>
     <!-- For additional details on SpecFlow configuration options see http://go.specflow.org/doc-config -->
     <stepAssemblies>
       <stepAssembly assembly="StepInteceptor" />
     </stepAssemblies>
   </specFlow>
+'''
 
 --------
 Example
 --------
 
-
+'''csharp
     [Binding]
     public class ShopSteps
     {
@@ -58,3 +60,4 @@ Example
         }
 
     }
+'''
