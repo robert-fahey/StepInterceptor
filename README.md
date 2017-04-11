@@ -2,6 +2,8 @@
 
 A Specflow plugin that allows a collection of Actions to be invoked before or after any step seamlessly - Great for builders 
 
+[![Build status](https://ci.appveyor.com/api/projects/status/km22mx51vgpgq2u3/branch/master?svg=true)](https://ci.appveyor.com/project/robert-fahey/stepinterceptor/branch/master)
+
 Usage
 
  - Build repo
@@ -62,4 +64,3 @@ Example
     }
 ```
 
-CI on appveyor - [![Build status](https://ci.appveyor.com/api/projects/status/km22mx51vgpgq2u3/branch/master?svg=true)](https://ci.appveyor.com/project/robert-fahey/stepinterceptor/branch/master)
