@@ -4,7 +4,9 @@ Allows a collection of Actions to be invokded before or after any step seamlessl
 Usage
 
 
-[Binding]
+
+
+    [Binding]
     public class ShopSteps
     {
         private Shop _shop;
