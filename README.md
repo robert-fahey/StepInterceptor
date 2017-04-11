@@ -15,7 +15,7 @@ Usage
         {
             _shop = shop;
             _stepInterceptorBuilder = stepInterceptorBuilder;
-            _shopBuilder = shopBuilder;
+            _shopBuilder = shopBuilder;
 
             _stepInterceptorBuilder.BeforeWhen(() =>
             {
