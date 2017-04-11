@@ -4,9 +4,9 @@ A Specflow plugin that allows a collection of Actions to be invoked before or af
 
 Usage
 
-Build repo
-Add StepInterceptor reference to your specs project
-Add library refernce to your app.config
+ - Build repo
+ - Add StepInterceptor reference to your specs project
+ - Add library refernce to your app.config
 
 ```xml
   <specFlow>
