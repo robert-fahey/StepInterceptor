@@ -3,10 +3,9 @@
 A Specflow plugin that allows a collection of Actions to be invoked before or after any step seamlessly - Great for builders 
 
 
-------
-Usage
-------
-
+--------
+Example
+--------
 
 
     [Binding]
@@ -18,9 +17,9 @@ Usage
 
         public ShopSteps(Shop shop, StepInterceptorBuilder stepInterceptorBuilder, ShopBuilder shopBuilder)
         {
-            _shop = shop;
-            _stepInterceptorBuilder = stepInterceptorBuilder;
-            _shopBuilder = shopBuilder;
+            _shop = shop;         
+            _stepInterceptorBuilder = stepInterceptorBuilder;            
+            _shopBuilder = shopBuilder;
 
             _stepInterceptorBuilder.BeforeWhen(() =>
             {
