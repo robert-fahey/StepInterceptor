@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>StepInterceptor</id>
+        <version>1.0.0</version>
+        <title>StepInterceptor</title>
+        <authors>Nick Hammond,Rob Fahey</authors>
+        <owners>Rob Fahey</owners>
+        <licenseUrl>https://github.com/robert-fahey/StepInterceptor/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/robert-fahey/StepInterceptor</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Allows a collection of Actions to be invokded before or after any step seamlessly - Great for builders</description>
+        <tags>Specflow</tags>
+        <dependencies>
+            <dependency id="SpecFlow" version="2.1.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="content\_._" target="content\_._" />
+        <file src="StepInteceptor\bin\Release\StepInteceptor.dll" target="lib\net461\StepInteceptor.dll" />
+        <file src="StepInteceptor\bin\Release\StepInteceptor.dll.config" target="lib\net461\StepInteceptor.dll.config" />
+        <file src="StepInteceptor\bin\Release\StepInteceptor.pdb" target="lib\net461\StepInteceptor.pdb" />
+    </files>
+</package>
