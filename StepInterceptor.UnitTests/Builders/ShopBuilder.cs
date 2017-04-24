@@ -1,7 +1,7 @@
-﻿using StepInteceptor.UnitTests.Builders.Asos.Scdsl.DeliveryServicesRouter.Infrastructure;
-using StepInteceptor.UnitTests.Models;
+﻿using StepInterceptor.UnitTests.Builders.Asos.Scdsl.DeliveryServicesRouter.Infrastructure;
+using StepInterceptor.UnitTests.Models;
 
-namespace StepInteceptor.UnitTests.Builders
+namespace StepInterceptor.UnitTests.Builders
 {
     public class ShopBuilder : Builder<ShopBuilder, Shop>
     {

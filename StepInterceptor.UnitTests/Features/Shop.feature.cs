@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace StepInteceptor.UnitTests.Features
+namespace StepInterceptor.UnitTests.Features
 {
     using TechTalk.SpecFlow;
     
@@ -73,7 +73,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 4
  testRunner.Given("I call my shop \'foo\' in the builder", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 5
- testRunner.When("The shop object is built by the inceptor", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("The shop object is built by the interceptor", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 6
  testRunner.Then("My shop object is populated with the name \'foo\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden

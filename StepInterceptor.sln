@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepInteceptor", "StepInteceptor\StepInteceptor.csproj", "{FF0E0B6A-1A38-4917-A70A-585F1878CB75}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepInteceptor.UnitTests", "StepInteceptor.UnitTests\StepInteceptor.UnitTests.csproj", "{85078E84-A7C3-4985-B5F9-D66C6A69AD25}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7FEE4110-EFBE-4E42-9F32-2BE8F0622CCD}"
 	ProjectSection(SolutionItems) = preProject
 		content\App.config.transform = content\App.config.transform
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepInterceptor", "StepInterceptor\StepInterceptor.csproj", "{FF0E0B6A-1A38-4917-A70A-585F1878CB75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepInterceptor.UnitTests", "StepInterceptor.UnitTests\StepInterceptor.UnitTests.csproj", "{85078E84-A7C3-4985-B5F9-D66C6A69AD25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

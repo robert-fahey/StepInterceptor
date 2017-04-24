@@ -1,8 +1,8 @@
-﻿namespace StepInteceptor.UnitTests.Builders
-{
-    using System;
-    using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
+namespace StepInterceptor.UnitTests.Builders
+{
     namespace Asos.Scdsl.DeliveryServicesRouter.Infrastructure
     {
         /// <summary>

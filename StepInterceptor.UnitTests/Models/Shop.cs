@@ -1,4 +1,4 @@
-﻿namespace StepInteceptor.UnitTests.Models
+﻿namespace StepInterceptor.UnitTests.Models
 {
     public class Shop
     {

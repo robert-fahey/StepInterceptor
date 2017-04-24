@@ -1,4 +1,4 @@
-﻿namespace StepInteceptor
+﻿namespace StepInterceptor
 {
     public enum StepDefinitionHookType
     {

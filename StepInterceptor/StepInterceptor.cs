@@ -2,7 +2,7 @@
 using TechTalk.SpecFlow;
 using TechTalk.SpecFlow.Bindings;
 
-namespace StepInteceptor
+namespace StepInterceptor
 {
     public class StepInterceptor
     {

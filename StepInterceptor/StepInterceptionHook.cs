@@ -1,6 +1,6 @@
 ﻿using TechTalk.SpecFlow;
 
-namespace StepInteceptor
+namespace StepInterceptor
 {
     [Binding]
     public class StepInterceptionHook

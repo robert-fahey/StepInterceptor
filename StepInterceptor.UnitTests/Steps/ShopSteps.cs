@@ -1,10 +1,10 @@
 ﻿using System;
 using FluentAssertions;
-using StepInteceptor.UnitTests.Builders;
-using StepInteceptor.UnitTests.Models;
+using StepInterceptor.UnitTests.Builders;
+using StepInterceptor.UnitTests.Models;
 using TechTalk.SpecFlow;
 
-namespace StepInteceptor.UnitTests.Steps
+namespace StepInterceptor.UnitTests.Steps
 {
 
     [Binding]
@@ -32,7 +32,7 @@ namespace StepInteceptor.UnitTests.Steps
             _shopBuilder.WithName(shopName);
         }
 
-        [When(@"The shop object is built by the inceptor")]
+        [When(@"The shop object is built by the interceptor")]
         public void WhenTheShopObjectIsBuiltByTheInceptor()
         {
             Console.Out.WriteLine("Builder invoked automatically");
