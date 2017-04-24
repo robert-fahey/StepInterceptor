@@ -16,9 +16,9 @@
         </dependencies>
     </metadata>
     <files>
-        <file src="content\_._" target="content\_._" />
-        <file src="StepInteceptor\bin\Release\StepInteceptor.dll" target="lib\net461\StepInteceptor.dll" />
-        <file src="StepInteceptor\bin\Release\StepInteceptor.dll.config" target="lib\net461\StepInteceptor.dll.config" />
-        <file src="StepInteceptor\bin\Release\StepInteceptor.pdb" target="lib\net461\StepInteceptor.pdb" />
+        <file src="..\content\_._" target="content\_._" />
+        <file src=".\bin\Release\StepInteceptor.dll" target="lib\net461\StepInteceptor.dll" />
+        <file src=".\bin\Release\StepInteceptor.dll.config" target="lib\net461\StepInteceptor.dll.config" />
+        <file src=".\bin\Release\StepInteceptor.pdb" target="lib\net461\StepInteceptor.pdb" />
     </files>
 </package>
