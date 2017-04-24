@@ -8,7 +8,7 @@ Usage
 
  - Build repo
  - Add StepInterceptor reference to your specs project
- - Add library refernce to your app.config
+ - Add library reference to your app.config
 
 ```xml
   <specFlow>
