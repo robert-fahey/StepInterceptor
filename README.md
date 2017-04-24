@@ -1,6 +1,8 @@
 # StepInterceptor
 
-A Specflow plugin that allows a collection of Actions to be invoked before or after any step seamlessly - Great for builders 
+Allows a collection of Actions to be invoked before or after a step type seamlessly. 
+
+E.g. Invoke .build() on a builder when the first When step is called. Removing the need for a filler step to build the object. 
 
 [![Build status](https://ci.appveyor.com/api/projects/status/km22mx51vgpgq2u3/branch/master?svg=true)](https://ci.appveyor.com/project/robert-fahey/stepinterceptor/branch/master)
 
