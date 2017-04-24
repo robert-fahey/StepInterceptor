@@ -17,8 +17,8 @@
     </metadata>
     <files>
         <file src="..\content\App.config.transform" target="content\App.config.transform" />
-        <file src=".\bin\Release\StepInteceptor.dll" target="lib\net461\StepInteceptor.dll" />
-        <file src=".\bin\Release\StepInteceptor.dll.config" target="lib\net461\StepInteceptor.dll.config" />
-        <file src=".\bin\Release\StepInteceptor.pdb" target="lib\net461\StepInteceptor.pdb" />
+        <file src=".\bin\Release\StepInterceptor.dll" target="lib\net461\StepInterceptor.dll" />
+        <file src=".\bin\Release\StepInterceptor.dll.config" target="lib\net461\StepInterceptor.dll.config" />
+        <file src=".\bin\Release\StepInterceptor.pdb" target="lib\net461\StepInterceptor.pdb" />
     </files>
 </package>

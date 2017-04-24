@@ -5,7 +5,7 @@
   <specFlow>
     <!-- For additional details on SpecFlow configuration options see http://go.specflow.org/doc-config -->
     <stepAssemblies>
-      <stepAssembly assembly="StepInteceptor" />
+      <stepAssembly assembly="StepInterceptor" />
     </stepAssemblies>
   </specFlow>
 </configuration>
