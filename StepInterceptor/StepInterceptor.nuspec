@@ -9,7 +9,7 @@
         <licenseUrl>https://github.com/robert-fahey/StepInterceptor/blob/master/LICENSE</licenseUrl>
         <projectUrl>https://github.com/robert-fahey/StepInterceptor</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Allows a collection of Actions to be invokded before or after any step seamlessly - Great for builders</description>
+        <description>Allows a collection of Actions to be invoked before or after a step type seamlessly. E.g. Invoke .build() on a builder when the first 'When' step is called. Removing the need for a filler step to build the object.</description>
         <tags>Specflow</tags>
         <dependencies>
             <dependency id="SpecFlow" version="2.1.0" />
