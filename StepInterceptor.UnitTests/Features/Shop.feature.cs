@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace StepInterceptor.UnitTests.Features
+namespace Specflow.StepInterceptor.UnitTests.Features
 {
     using TechTalk.SpecFlow;
     
