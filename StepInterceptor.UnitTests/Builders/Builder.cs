@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace StepInterceptor.UnitTests.Builders
+namespace Specflow.StepInterceptor.UnitTests.Builders
 {
     namespace Asos.Scdsl.DeliveryServicesRouter.Infrastructure
     {

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <id>StepInterceptor</id>
+        <id>Specflow.StepInterceptor</id>
         <version>$version$</version>
-        <title>StepInterceptor</title>
+        <title>Specflow.StepInterceptor</title>
         <authors>Nick Hammond,Rob Fahey</authors>
         <owners>Rob Fahey</owners>
         <licenseUrl>https://github.com/robert-fahey/StepInterceptor/blob/master/LICENSE</licenseUrl>
@@ -17,8 +17,8 @@
     </metadata>
     <files>
         <file src="..\content\App.config.transform" target="content\App.config.transform" />
-        <file src=".\bin\Release\StepInterceptor.dll" target="lib\net461\StepInterceptor.dll" />
-        <file src=".\bin\Release\StepInterceptor.dll.config" target="lib\net461\StepInterceptor.dll.config" />
-        <file src=".\bin\Release\StepInterceptor.pdb" target="lib\net461\StepInterceptor.pdb" />
+        <file src=".\bin\Release\Specflow.StepInterceptor.dll" target="lib\net461\Specflow.StepInterceptor.dll" />
+        <file src=".\bin\Release\Specflow.StepInterceptor.dll.config" target="lib\net461\Specflow.StepInterceptor.dll.config" />
+        <file src=".\bin\Release\Specflow.StepInterceptor.pdb" target="lib\net461\Specflow.StepInterceptor.pdb" />
     </files>
 </package>

@@ -1,4 +1,4 @@
-# StepInterceptor
+# Specflow.StepInterceptor
 
 Allows a collection of Actions to be invoked before or after a step type seamlessly. 
 
@@ -9,14 +9,14 @@ E.g. Invoke .build() on a builder just before the first When step is called. Rem
 Usage
 
  - Build repo
- - Add StepInterceptor reference to your specs project
+ - Add Specflow.StepInterceptor reference to your specs project
  - Add library reference to your app.config
 
 ```xml
   <specFlow>
     <!-- For additional details on SpecFlow configuration options see http://go.specflow.org/doc-config -->
     <stepAssemblies>
-      <stepAssembly assembly="StepInteceptor" />
+      <stepAssembly assembly="Specflow.StepInterceptor" />
     </stepAssemblies>
   </specFlow>
 ```

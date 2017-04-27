@@ -4,7 +4,7 @@ using System.Linq;
 using TechTalk.SpecFlow;
 using TechTalk.SpecFlow.Bindings;
 
-namespace StepInterceptor
+namespace Specflow.StepInterceptor
 {
     public class StepInterceptorBuilder
     {
