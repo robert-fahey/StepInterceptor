@@ -6,22 +6,24 @@ namespace StepInterceptor
     public class StepInterceptionHook
     {
         private readonly StepInterceptorBuilder _builder;
+        private readonly ScenarioContext _scenarioContext;
 
-        public StepInterceptionHook(StepInterceptorBuilder builder)
+        public StepInterceptionHook(StepInterceptorBuilder builder, ScenarioContext scenarioContext)
         {
             _builder = builder;
+            _scenarioContext = scenarioContext;
         }
 
         [BeforeStep()]
         public void BeforeStep()
         {
-            Run(StepDefinitionHookType.BeforeStep, ScenarioStepContext.Current.StepInfo);
+            Run(StepDefinitionHookType.BeforeStep, _scenarioContext.StepContext.StepInfo);
         }
 
         [AfterStep()]
         public void AfterStep()
         {
-            Run(StepDefinitionHookType.AfterStep, ScenarioStepContext.Current.StepInfo);
+            Run(StepDefinitionHookType.AfterStep, _scenarioContext.StepContext.StepInfo);
         }
 
         private void Run(StepDefinitionHookType hookType, StepInfo stepInfo)
