@@ -9,9 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepInterceptor", "StepInterceptor\StepInterceptor.csproj", "{FF0E0B6A-1A38-4917-A70A-585F1878CB75}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specflow.StepInterceptor", "Specflow.StepInterceptor\Specflow.StepInterceptor.csproj", "{FF0E0B6A-1A38-4917-A70A-585F1878CB75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepInterceptor.UnitTests", "StepInterceptor.UnitTests\StepInterceptor.UnitTests.csproj", "{85078E84-A7C3-4985-B5F9-D66C6A69AD25}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specflow.StepInterceptor.UnitTests", "Specflow.StepInterceptor.UnitTests\Specflow.StepInterceptor.UnitTests.csproj", "{85078E84-A7C3-4985-B5F9-D66C6A69AD25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,4 +1,4 @@
-﻿namespace StepInterceptor
+﻿namespace Specflow.StepInterceptor
 {
     public enum StepDefinitionHookType
     {

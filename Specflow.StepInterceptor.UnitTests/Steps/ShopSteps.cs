@@ -1,6 +1,7 @@
 ﻿using System;
 using FluentAssertions;
-using StepInterceptor.UnitTests.Builders;
+using Specflow.StepInterceptor;
+using Specflow.StepInterceptor.UnitTests.Builders;
 using StepInterceptor.UnitTests.Models;
 using TechTalk.SpecFlow;
 
